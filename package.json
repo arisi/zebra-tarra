@@ -1,0 +1,11 @@
+{
+  "name": "zebra-tarra",
+  "version": "1.0.0",
+  "description": "Zebra EPL2 label printing from macOS without vendor drivers (pass-through PPD, mm-based layout, QR); doubles as a Claude Code skill",
+  "type": "module",
+  "bin": { "tarra": "./tarra.js" },
+  "license": "MIT",
+  "author": "Ari Siitonen",
+  "repository": { "type": "git", "url": "https://github.com/arisi/zebra-tarra.git" },
+  "engines": { "node": ">=18.3" }
+}
